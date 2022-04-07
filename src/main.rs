@@ -32,7 +32,6 @@ fn main() {
 
 
 	assert_eq!(second_vector, ["Learning", "functional", "programming", "in", "rust", "is", "fun", "but", "borrowing", "is", "difficult"]);
-	assert_eq!(first_vector, [] as [&str; 0]);	// why would this be empty?
 	
 	// Remove the last element from first_vector and from second_vector
 	// Hint: use pop
